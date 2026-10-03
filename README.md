@@ -20,7 +20,11 @@ This project aims to predict customer default risk and identify the key drivers 
 #### Credit Score
 ![Distribution of credit score](images/credit_score_dist.png)
 #### Age
+![Distribution of age](images/age_dist.png)
 #### Tenure
+![Distribution of tenure](images/tenure_dist.png)
 #### Balance
+![Distribution of balance](images/balance_dist.png)
 #### Estimated Salary
+![Distribution of estimated salary](images/estimated_salary_dist.png)
 
