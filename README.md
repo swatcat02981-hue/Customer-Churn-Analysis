@@ -15,3 +15,11 @@ This project aims to predict customer default risk and identify the key drivers 
 * active_member (nominal catagorical)(independent variable)
 * estimated_salary (num)(independent variable)
 * churn (target variable)
+## Exploratory Data Analysis
+### Distribution Analysis
+#### Credit Score
+#### Age
+#### Tenure
+#### Balance
+#### Estimated Salary
+
