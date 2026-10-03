@@ -27,4 +27,22 @@ This project aims to predict customer default risk and identify the key drivers 
 ![Distribution of balance](images/balance_dist.png)
 #### Estimated Salary
 ![Distribution of estimated salary](images/estimated_salary_dist.png)
-
+#### Finding from distribution analysis
+* Credit score histogram is like a bell curve that has concentrated point ~680-690 and has a tall rightest tail which represent a group of person who got full score.
+* Hightest age range of customer is 36-38 years old and age histrogram is right screw with mean we need to take a log before performing on logistic regression model.
+* Two lowest tenure age are 0 and 10 yaers(each of them is 4-5% of all) and each of the remaining tenure age is around 10%.
+* After plot a net worth balance histogram, seperating between two group. First group is a zero networth account estimated 36% and second group is a account that has more than zero networth balance look like a bell curve which has highest point around 120k.
+* Estimated salary histogram indicates that at all range of salary contain a similar number of account inside it.
+### Default Rate Analysis
+#### Credit Score
+![Default Rate of credit score](images/credit_score_def.png)
+#### Age
+![Default Rate of age](images/age_def.png)
+#### Tenure
+![Default Rate of tenure](images/tenure_def.png)
+#### Balance
+![Default Rate of balance](images/balance_def.png)
+#### Products Number
+![Default Rate of products_number](images/products_number_def.png)
+#### Active Member
+![Default Rate of active member](images/active_member_def.png)
