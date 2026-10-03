@@ -18,6 +18,7 @@ This project aims to predict customer default risk and identify the key drivers 
 ## Exploratory Data Analysis
 ### Distribution Analysis
 #### Credit Score
+![Distribution of credit score](images/credit_score_dist.png)
 #### Age
 #### Tenure
 #### Balance
