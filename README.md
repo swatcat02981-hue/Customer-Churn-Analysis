@@ -46,3 +46,53 @@ This project aims to predict customer default risk and identify the key drivers 
 ![Default Rate of products_number](images/products_number_def.png)
 #### Active Member
 ![Default Rate of active member](images/active_member_def.png)
+#### Finding from Default Rate Analysis
+* From credit score range, the highest churn rate is credit score range between 300-400 which reach churn rate 100% but we has seen that a sample point of this group is only 0.19% or 19 persons. Meanwhile, others range is contain a similar churn rate at around 20%.
+* Churn rate graph by age range range show us a bell curve histogram. The highest churn rate is age range between 50-60 which reach 56% churn rate.
+* From churn rate graph by tenure, look like not much different between each tenure age. The hishest churn rate is 0 yaer at 23.0% and lowest is 7 year at 17.2%.
+* We will devide a balance net worth into two groups. Fist group balance eqaul to 0 has churn rate at 13.8%. Second group is an account that balance higher than 0, this group churn rate at two tail in right and left side have higher churn rate than remaining balance range but should be careful that a two tail(<25k and >225k)are very small sample number.
+* A number of product that contain highest churn rate is 4 which 100% churn rate but also smallest group of total member 0.6% or 60 person. Second 3 product number at 82.71% churn rate. Third is 1 product number at 27.71% churn rate and lastly is 2 product number at 7.58% churn rate.
+* A active member churn rate is only 14.3% meanwhile inactive member higher than active member almost 2 times at 26.9%.
+### Correlation Analysis
+#### Variance Inflation Factor
+| Feature | VIF |
+|---|---:|
+| country_france | 1.508787 |
+| country_germany | 1.724125 |
+| gender | 1.003156 |
+| log_age | 1.009108 |
+| tenure | 1.001958 |
+| balance | 1.336363 |
+| products_number | 1.122079 |
+| credit_card | 1.001557 |
+| active_member | 1.006689 |
+| estimated_salary | 1.000925 |
+#### Finding from correlation analysis
+Each of feature's variance inflation factor value indicate that thare are very small effect contributes from each others feature. So, we will keep all features to develop our model.
+## Modeling : Logistic Regression
+The model was evaluated using a confusion matrix, classification report, ROC-AUC score and logistic regression results table by choosing threshold at 0.60
+
+#### Confusion Matrix
+
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------: | ----------: |
+| **Actual 0** |          1339 |          254 |
+| **Actual 1** |           175 |          232 |
+
+#### Classification Report
+
+| Class            | Precision | Recall | F1-score | Support |
+| ---------------- | --------: | -----: | -------: | ------: |
+| **0**            |      0.88 |   0.84 |     0.86 |      1593 |
+| **1**            |      0.48 |   0.57 |     0.52 |      407 |
+| **Macro Avg**    |      0.68 |   0.71 |     0.69 |     2000 |
+| **Weighted Avg** |      0.80 |   0.79 |     0.79 |     2000 |
+
+#### Overall Performance
+
+| Metric       |      Score |
+| ------------ | ---------: |
+| **Accuracy** |       0.7855 |
+| **ROC-AUC**  | **0.7728** |
+
+
