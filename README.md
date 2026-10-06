@@ -101,7 +101,7 @@ For **Class 1**, the model has a recall of **0.57**, meaning that it moderately 
 For **Class 0**, the model has high precision (**0.88**) and also high recall (**0.84**), meaning that both of its predictions of Class 0 are usually correct.
 Overall, the model appears to prioritize detecting **Class 0** over minimizing false positives.
 
-| Variable | coef | std err | z | P>|z| | [0.025 | 0.975] |
+| Variable | coef | std err | z | P value | [0.025 | 0.975] |
 |---|---:|---:|---:|---:|---:|---:|
 | const | -1.6984 | 0.036 | -47.514 | 0.000 | -1.769 | -1.628 |
 | credit_score | -0.0570 | 0.030 | -1.875 | 0.061 | -0.117 | 0.003 |
