@@ -95,4 +95,30 @@ The model was evaluated using a confusion matrix, classification report, ROC-AUC
 | **Accuracy** |       0.7855 |
 | **ROC-AUC**  | **0.7728** |
 
+We find a threshold by calculated an expected cost by minimize a sum of campaign cost, churn loss cost and campaign failure. By assuming each cost of value we got a minimimum expected cost at threshold equals to 0.60 .
+
+For **Class 1**, the model has a recall of **0.57**, meaning that it moderately identifies a positive cases. Its precision is also closely at **0.48, indicating that a half number of class 1 predicted is false positives.
+For **Class 0**, the model has high precision (**0.88**) and also high recall (**0.84**), meaning that both of its predictions of Class 0 are usually correct.
+Overall, the model appears to prioritize detecting **Class 0** over minimizing false positives.
+
+| Variable | coef | std err | z | P>|z| | [0.025 | 0.975] |
+|---|---:|---:|---:|---:|---:|---:|
+| const | -1.6984 | 0.036 | -47.514 | 0.000 | -1.769 | -1.628 |
+| credit_score | -0.0570 | 0.030 | -1.875 | 0.061 | -0.117 | 0.003 |
+| country_france | -0.0160 | 0.040 | -0.405 | 0.685 | -0.093 | 0.061 |
+| country_germany | 0.3077 | 0.038 | 8.020 | 0.000 | 0.233 | 0.383 |
+| gender | -0.2683 | 0.030 | -8.811 | 0.000 | -0.328 | -0.209 |
+| log_age | 0.8813 | 0.034 | 26.094 | 0.000 | 0.815 | 0.948 |
+| tenure | -0.0305 | 0.030 | -1.008 | 0.314 | -0.090 | 0.029 |
+| balance | 0.1699 | 0.036 | 4.739 | 0.000 | 0.100 | 0.240 |
+| products_number | -0.0396 | 0.030 | -1.299 | 0.194 | -0.099 | 0.020 |
+| credit_card | 0.0037 | 0.030 | 0.123 | 0.902 | -0.056 | 0.063 |
+| active_member | -0.5231 | 0.032 | -16.279 | 0.000 | -0.586 | -0.460 |
+| estimated_salary | 0.0068 | 0.031 | 0.222 | 0.824 | -0.053 | 0.067 |
+
+
+
+
+
+
 
