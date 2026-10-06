@@ -116,6 +116,9 @@ Overall, the model appears to prioritize detecting **Class 0** over minimizing f
 | active_member | -0.5231 | 0.032 | -16.279 | 0.000 | -0.586 | -0.460 |
 | estimated_salary | 0.0068 | 0.031 | 0.222 | 0.824 | -0.053 | 0.067 |
 
+### Finding from p-value
+A significant of coefficient can indicate by a p-value, a less number of p-value indicate a probability of coefficent value will eqauls to zero is very less. Mostly, we use a standard number to decide which feature coefficient is significant or not at 0.05. From a p-value matrix above, five featurs were count to be significance there are country_germany, gender, gender, log_age and active_member. 
+
 
 
 
