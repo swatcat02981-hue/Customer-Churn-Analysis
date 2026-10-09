@@ -72,14 +72,14 @@ Each of feature's variance inflation factor value indicate that thare are very s
 ## Modeling : Logistic Regression
 The model was evaluated using a confusion matrix, classification report, ROC-AUC score and logistic regression results table by choosing threshold at 0.60
 
-#### Confusion Matrix
+### Confusion Matrix
 
 |              | Predicted 0 | Predicted 1 |
 | ------------ | ----------: | ----------: |
 | **Actual 0** |          1339 |          254 |
 | **Actual 1** |           175 |          232 |
 
-#### Classification Report
+### Classification Report
 
 | Class            | Precision | Recall | F1-score | Support |
 | ---------------- | --------: | -----: | -------: | ------: |
@@ -88,7 +88,7 @@ The model was evaluated using a confusion matrix, classification report, ROC-AUC
 | **Macro Avg**    |      0.68 |   0.71 |     0.69 |     2000 |
 | **Weighted Avg** |      0.80 |   0.79 |     0.79 |     2000 |
 
-#### Overall Performance
+### Overall Performance
 
 | Metric       |      Score |
 | ------------ | ---------: |
@@ -101,6 +101,7 @@ For **Class 1**, the model has a recall of **0.57**, meaning that it moderately 
 For **Class 0**, the model has high precision (**0.88**) and also high recall (**0.84**), meaning that both of its predictions of Class 0 are usually correct.
 Overall, the model appears to prioritize detecting **Class 0** over minimizing false positives.
 
+### Logistic Regression Results Table
 | Variable | coef | std err | z | P value | [0.025 | 0.975] |
 |---|---:|---:|---:|---:|---:|---:|
 | const | -1.6984 | 0.036 | -47.514 | 0.000 | -1.769 | -1.628 |
@@ -116,8 +117,37 @@ Overall, the model appears to prioritize detecting **Class 0** over minimizing f
 | active_member | -0.5231 | 0.032 | -16.279 | 0.000 | -0.586 | -0.460 |
 | estimated_salary | 0.0068 | 0.031 | 0.222 | 0.824 | -0.053 | 0.067 |
 
-### Finding from p-value
+#### Finding from p-value
 A significant of coefficient can indicate by a p-value, a less number of p-value indicate a probability of coefficent value will eqauls to zero is very less. Mostly, we use a standard number to decide which feature coefficient is significant or not at 0.05. From a p-value matrix above, five featurs were count to be significance there are country_germany, gender, gender, log_age and active_member. 
+
+### Churn Rate with Probability Band Table
+| No. | Probability Band | Customers | Actual Churn | Churn Rate (%) |
+|---:|:---:|---:|---:|---:|
+| 0 | 0.00–0.05 | 16 | 0 | 0.00 |
+| 1 | 0.05–0.10 | 72 | 2 | 2.78 |
+| 2 | 0.10–0.15 | 129 | 5 | 3.88 |
+| 3 | 0.15–0.20 | 150 | 14 | 9.33 |
+| 4 | 0.20–0.25 | 168 | 11 | 6.55 |
+| 5 | 0.25–0.30 | 139 | 14 | 10.07 |
+| 6 | 0.30–0.35 | 156 | 18 | 11.54 |
+| 7 | 0.35–0.40 | 156 | 20 | 12.82 |
+| 8 | 0.40–0.45 | 144 | 15 | 10.42 |
+| 9 | 0.45–0.50 | 149 | 22 | 14.77 |
+| 10 | 0.50–0.55 | 121 | 28 | 23.14 |
+| 11 | 0.55–0.60 | 114 | 26 | 22.81 |
+| 12 | 0.60–0.65 | 101 | 38 | 37.62 |
+| 13 | 0.65–0.70 | 90 | 31 | 34.44 |
+| 14 | 0.70–0.75 | 71 | 38 | 53.52 |
+| 15 | 0.75–0.80 | 85 | 34 | 40.00 |
+| 16 | 0.80–0.85 | 70 | 38 | 54.29 |
+| 17 | 0.85–0.90 | 43 | 33 | 76.74 |
+| 18 | 0.90–0.95 | 21 | 16 | 76.19 |
+| 19 | 0.95–1.00 | 5 | 4 | 80.00 |
+
+#### Determine customer segment
+From above table, we can seperate a customer segment by observe an increaseing rate of churn rate on each probability band. We determine Low risk at 0.00-0.25, Medium risk at 0.25-0.50 and high risk at 0.50-1.00. 
+
+
 
 
 
