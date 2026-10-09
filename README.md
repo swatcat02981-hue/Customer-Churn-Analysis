@@ -147,6 +147,18 @@ A significant of coefficient can indicate by a p-value, a less number of p-value
 #### Determine customer segment
 From above table, we can seperate a customer segment by observe an increaseing rate of churn rate on each probability band. We determine Low risk at 0.00-0.25, Medium risk at 0.25-0.50 and high risk at 0.50-1.00. 
 
+## Statistical-test : Chi-Square Test
+
+### Results Table
+| Feature | Chi-square | p-value | df | Cramer's V | Min Expected | % Expected < 5 | p-adjusted | Significant |
+|---|---:|---:|---:|---:|---:|---:|---:|:---:|
+| country | 301.255337 | 3.830318e-66 | 2 | 0.173567 | 504.5649 | 0.0 | 1.532127e-65 | True |
+| gender | 112.918571 | 2.248210e-26 | 1 | 0.106263 | 925.4091 | 0.0 | 4.496420e-26 | True |
+| credit_card | 0.471338 | 4.923724e-01 | 1 | 0.006865 | 599.8965 | 0.0 | 4.923724e-01 | False |
+| active_member | 242.985342 | 8.785858e-55 | 1 | 0.155880 | 987.7413 | 0.0 | 2.635757e-54 | True |
+
+#### Finding from Chi-Square test
+After review a p-value and p-adjusted value of country, gender and active member are statistical significant for churn effect.
 
 
 
