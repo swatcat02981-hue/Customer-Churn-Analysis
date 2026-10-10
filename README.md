@@ -147,6 +147,7 @@ A significant of coefficient can indicate by a p-value, a less number of p-value
 #### Determine customer segment by risk level
 From above table, we can seperate a customer segment by observe an increaseing rate of churn rate on each probability band. We determine Low risk at 0.00-0.25, Medium risk at 0.25-0.50 and high risk at 0.50-1.00. 
 
+
 ## Statistical-test : Chi-Square Test
 
 ### Results Table
@@ -159,6 +160,7 @@ From above table, we can seperate a customer segment by observe an increaseing r
 
 #### Finding from Chi-Square test
 After review a p-value and p-adjusted value of country, gender and active member are statistical significant for churn effect.
+
 
 ## Customer Segmentation : K-mean Clustering
 
@@ -245,6 +247,44 @@ K = 5
 | 2 | 0.03 | 0.01 | -0.02 | 0.77 | 1.04 | 0.06 |
 | 3 | -0.07 | -0.02 | -0.92 | 0.60 | -0.91 | -0.02 |
 | 4 | 0.01 | -0.17 | 0.08 | -1.16 | 0.52 | 0.90 |
+
+Three variables that can use to separate cluster there are tenure, balance and product number. At K=3 and 4 are easy to do a customer profiling and business interpretation.
+
+### Churn Rate on each Number of Clusters.
+
+K = 2
+| Cluster | Customers | Churn Rate (%) |
+|---:|---:|---:|
+| 0 | 4207 | 17.38 |
+| 1 | 5793 | 22.54 |
+
+K = 3
+| Cluster | Customers | Churn Rate (%) |
+|---:|---:|---:|
+| 0 | 3199 | 22.82 |
+| 1 | 3494 | 14.17 |
+| 2 | 3307 | 24.55 |
+
+K = 4
+| Cluster | Customers | Churn Rate (%) |
+|---:|---:|---:|
+| 0 | 2132 | 21.34 |
+| 1 | 2419 | 27.16 |
+| 2 | 2965 | 7.35 |
+| 3 | 2484 | 28.46 |
+
+K = 5
+| Cluster | Customers | Churn Rate (%) |
+|---:|---:|---:|
+| 0 | 1868 | 12.90 |
+| 1 | 2182 | 26.35 |
+| 2 | 1999 | 22.51 |
+| 3 | 2157 | 25.82 |
+| 4 | 1794 | 11.93 |
+
+From the tables above, at number of clusters equals to 4 shows clearly separated churn rate to three different level.
+
+### Conclusion
 
 
 
