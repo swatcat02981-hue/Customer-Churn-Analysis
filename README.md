@@ -144,7 +144,7 @@ A significant of coefficient can indicate by a p-value, a less number of p-value
 | 18 | 0.90–0.95 | 21 | 16 | 76.19 |
 | 19 | 0.95–1.00 | 5 | 4 | 80.00 |
 
-#### Determine customer segment
+#### Determine customer segment by risk level
 From above table, we can seperate a customer segment by observe an increaseing rate of churn rate on each probability band. We determine Low risk at 0.00-0.25, Medium risk at 0.25-0.50 and high risk at 0.50-1.00. 
 
 ## Statistical-test : Chi-Square Test
@@ -159,6 +159,25 @@ From above table, we can seperate a customer segment by observe an increaseing r
 
 #### Finding from Chi-Square test
 After review a p-value and p-adjusted value of country, gender and active member are statistical significant for churn effect.
+
+## Customer Segmentation : K-mean Clustering
+
+First, we consider about a correlation between each variables before choose a variable to make a a K-mean Clustering. As a result above in EDA part, there no correlation between them.
+
+### Skewness of each variables
+| Variable | Skewness |
+|---|---:|
+| age | 1.011320 |
+| products_number | 0.745568 |
+| tenure | 0.010991 |
+| estimated_salary | 0.002085 |
+| credit_score | -0.071607 |
+| balance | -0.141109 |
+
+from table above, we consider to take a log on age variable to decrease an effect from scaling.
+
+
+
 
 
 
