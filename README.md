@@ -194,6 +194,58 @@ K=2
 | 0 | 4207 |
 | 1 | 5793 |
 
+K = 3
+| Cluster | Number of Customers |
+|---:|---:|
+| 0 | 3199 |
+| 1 | 3494 |
+| 2 | 3307 |
+
+K = 4
+| Cluster | Number of Customers |
+|---:|---:|
+| 0 | 2132 |
+| 1 | 2419 |
+| 2 | 2965 |
+| 3 | 2484 |
+
+K = 5
+| Cluster | Number of Customers |
+|---:|---:|
+| 0 | 1868 |
+| 1 | 2182 |
+| 2 | 1999 |
+| 3 | 2157 |
+| 4 | 1794 |
+
+At all of number of clusters show us an appropriate separated.
+
+### Cluster Profiling by Variable STD on each Number of Clusters.
+
+K = 3
+| Cluster | credit_score | log_age | tenure | balance | products_number | estimated_salary |
+|---:|---:|---:|---:|---:|---:|---:|
+| 0 | -0.02 | 0.05 | 0.90 | 0.58 | -0.44 | 0.11 |
+| 1 | 0.01 | -0.10 | 0.04 | -1.03 | 0.82 | -0.01 |
+| 2 | 0.00 | 0.06 | -0.92 | 0.53 | -0.45 | -0.09 |
+
+K = 4
+| Cluster | credit_score | log_age | tenure | balance | products_number | estimated_salary |
+|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0.02 | -0.01 | -0.01 | 0.73 | 1.02 | 0.05 |
+| 1 | 0.08 | 0.11 | 0.89 | 0.45 | -0.91 | 0.01 |
+| 2 | 0.00 | -0.15 | 0.04 | -1.21 | 0.77 | -0.03 |
+| 3 | -0.10 | 0.09 | -0.90 | 0.39 | -0.91 | -0.03 |
+
+K = 5
+| Cluster | credit_score | log_age | tenure | balance | products_number | estimated_salary |
+|---:|---:|---:|---:|---:|---:|---:|
+| 0 | -0.01 | -0.01 | -0.02 | -1.15 | 0.51 | -0.93 |
+| 1 | 0.04 | 0.15 | 0.87 | 0.64 | -0.91 | 0.02 |
+| 2 | 0.03 | 0.01 | -0.02 | 0.77 | 1.04 | 0.06 |
+| 3 | -0.07 | -0.02 | -0.92 | 0.60 | -0.91 | -0.02 |
+| 4 | 0.01 | -0.17 | 0.08 | -1.16 | 0.52 | 0.90 |
+
 
 
 
