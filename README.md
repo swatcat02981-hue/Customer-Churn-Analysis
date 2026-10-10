@@ -176,6 +176,10 @@ First, we consider about a correlation between each variables before choose a va
 
 From table above, we consider to take a log on age variable to decrease an effect from scaling.
 
+### Elbow Method
+![Inertia vs K numbers](images/Elbow_Method.png)
+
+
 
 
 
