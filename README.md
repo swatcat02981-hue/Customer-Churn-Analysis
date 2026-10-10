@@ -285,6 +285,7 @@ K = 5
 From the tables above, at number of clusters equals to 4 shows clearly separated churn rate to three different level.
 
 ### Conclusion
+K=4 provides the best balance between statistical structure, customer profile differentiation, cluster balance, and churn-based business interpretability.
 
 
 
