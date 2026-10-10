@@ -179,6 +179,24 @@ From table above, we consider to take a log on age variable to decrease an effec
 ### Elbow Method
 ![Inertia vs K numbers](images/Elbow_Method.png)
 
+From above graph, we try to find out a number of clusters that a value of inertia not significantly reducing when increase a number of clusters. However,  elbow method isn't clear.
+
+### Silhouette Score
+![Silhouette Score vs K numbers](images/Silhouette_Score.png)
+
+The highest Silhouette Score is K=2. However, we will look at a business interpretation on each number of K before decisions.
+
+### Amount of Member on each Number of Clusters
+
+K=2
+| Cluster | Number of Customers |
+|---:|---:|
+| 0 | 4207 |
+| 1 | 5793 |
+
+
+
+
 
 
 
