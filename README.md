@@ -174,7 +174,9 @@ First, we consider about a correlation between each variables before choose a va
 | credit_score | -0.071607 |
 | balance | -0.141109 |
 
-from table above, we consider to take a log on age variable to decrease an effect from scaling.
+From table above, we consider to take a log on age variable to decrease an effect from scaling.
+
+
 
 
 
