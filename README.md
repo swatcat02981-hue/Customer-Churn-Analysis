@@ -294,19 +294,19 @@ K=4 provides the best balance between statistical structure, customer profile di
 Power Bi report provides a four pages that illustrates an overview, contributing variable to churn rate, customer segmentation and risk level.
 
 ### Excutive Overview
-![Excutive Overview of report](images/powerbi/Excutive_Overview.png)
+![Excutive Overview](images/powerbi/Excutive_Overview.png)
 
 ### Churn Analysis1
-
+![Churn rate by variables](images/powerbi/Churn_Analysis1.png)
 
 ### Churn Analysis2
-
+![Churn rate by variables](images/powerbi/Churn_Analysis2.png)
 
 ### Customer Segmentation(K-mean Clustering)
+![Customer Segmentation by K-mean Clustering](images/powerbi/Customer_Segmantation.png)
 
-
-### 
-
+### Risk&Prediction
+![Risk level of member&Prediction](images/powerbi/Risk&Prediction.png)
 
 
 
