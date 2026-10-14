@@ -69,6 +69,8 @@ This project aims to predict customer default risk and identify the key drivers 
 | estimated_salary | 1.000925 |
 #### Finding from correlation analysis
 Each of feature's variance inflation factor value indicate that thare are very small effect contributes from each others feature. So, we will keep all features to develop our model.
+
+
 ## Modeling : Logistic Regression
 The model was evaluated using a confusion matrix, classification report, ROC-AUC score and logistic regression results table by choosing threshold at 0.60
 
@@ -287,7 +289,13 @@ From the tables above, at number of clusters equals to 4 shows clearly separated
 ### Conclusion
 K=4 provides the best balance between statistical structure, customer profile differentiation, cluster balance, and churn-based business interpretability.
 
+
 ## Dashboard : Power BI Report
+Power Bi report provides a four pages that illustrates an overview, contributing variable to churn rate, customer segmentation and risk level.
+
+### Executive Overview
+![Executive Overview](images/powerbi/Executive Overview.png)
+
 
 
 
