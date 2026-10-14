@@ -303,7 +303,7 @@ Power Bi report provides a four pages that illustrates an overview, contributing
 ![Churn rate by variables](images/powerbi/Churn_Analysis2.png)
 
 ### Customer Segmentation(K-mean Clustering)
-![Customer Segmentation by K-mean Clustering](images/powerbi/Customer_Segmantation.png)
+![Customer Segmentation by K-mean Clustering](images/powerbi/Customer_Segmentation.png)
 
 ### Risk&Prediction
 ![Risk level of member&Prediction](images/powerbi/Risk&Prediction.png)
