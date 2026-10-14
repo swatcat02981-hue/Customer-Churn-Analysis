@@ -293,8 +293,8 @@ K=4 provides the best balance between statistical structure, customer profile di
 ## Dashboard : Power BI Report
 Power Bi report provides a four pages that illustrates an overview, contributing variable to churn rate, customer segmentation and risk level.
 
-### Executive Overview
-![Executive Overview](images/powerbi/Executive Overview.png)
+### Excutive Overview
+![Excutive Overview](images/powerbi/Excutive Overview.png)
 
 
 
