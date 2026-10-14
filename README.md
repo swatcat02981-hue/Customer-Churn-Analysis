@@ -296,6 +296,17 @@ Power Bi report provides a four pages that illustrates an overview, contributing
 ### Excutive Overview
 ![Excutive Overview of report](images/powerbi/Excutive_Overview.png)
 
+### Churn Analysis1
+
+
+### Churn Analysis2
+
+
+### Customer Segmentation(K-mean Clustering)
+
+
+### 
+
 
 
 
