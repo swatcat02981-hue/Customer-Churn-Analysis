@@ -301,11 +301,12 @@ Power Bi report provides a four pages that illustrates an overview, contributing
 ![Churn rate by variables](images/powerbi/Churn_Analysis1.png)
 * From credit score range, the highest churn rate is credit score range between 300-400 which reach churn rate 100% but we has seen that a sample point of this group is only 0.19% or 19 persons. Meanwhile, others range is contain a similar churn rate at around 20%.
 * Churn rate graph by age range range show us a bell curve histogram. The highest churn rate is age range between 50-60 which reach 56% churn rate.
-* We will devide a balance net worth into two groups. Fist group balance eqaul to 0 has churn rate at 13.8%. Second group is an account that balance higher than 0, this group churn rate at two tail in right and left side have higher churn rate than remaining balance range but should be careful that a two tail(<25k and >225k)are very small sample number.
- 
+* We will devide a balance net worth into two groups. Fist group balance eqaul to 0 has churn rate at 13.8%. Second group is an account that balance higher than 0, this group churn rate at two tail in right and left side have higher churn rate than remaining balance range but should be careful that a two tail(<25k and >225k)are very small sample number. 
 
 ### Churn Analysis2
 ![Churn rate by variables](images/powerbi/Churn_Analysis2.png)
+* A number of product that contain highest churn rate is 4 which 100% churn rate but also smallest group of total member 0.6% or 60 person. Second 3 product number at 82.71% churn rate. Third is 1 product number at 27.71% churn rate and lastly is 2 product number at 7.58% churn rate.
+* A active member churn rate is only 14.3% meanwhile inactive member higher than active member almost 2 times at 26.9%.
 
 ### Customer Segmentation(K-mean Clustering)
 ![Customer Segmentation by K-mean Clustering](images/powerbi/Customer_Segmentation.png)
