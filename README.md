@@ -310,6 +310,7 @@ Power Bi report provides a four pages that illustrates an overview, contributing
 
 ### Customer Segmentation(K-mean Clustering)
 ![Customer Segmentation by K-mean Clustering](images/powerbi/Customer_Segmentation.png)
+Cluster2 (High-Balance Long-Term Single-Product) and Cluster4 (High-Balance Short-term Single-Product) are highest churn rate among four clusters at 27.16% and 28.46% more than average at 20.37%.
 
 ### Risk&Prediction
 ![Risk level of member&Prediction](images/powerbi/Risk&Prediction.png)
