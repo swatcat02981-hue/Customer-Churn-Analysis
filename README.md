@@ -295,6 +295,7 @@ Power Bi report provides a four pages that illustrates an overview, contributing
 
 ### Overview
 ![Overview of report](images/powerbi/Overview.png)
+20.37% total churn rate illustrate a status of current situation and 3,772 members from total 10,000 were count to be a high risk of churn and need to be focus for reducing a  chance to become more churn members.
 
 ### Churn Analysis1
 ![Churn rate by variables](images/powerbi/Churn_Analysis1.png)
