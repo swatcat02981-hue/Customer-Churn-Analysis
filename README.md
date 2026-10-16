@@ -46,7 +46,7 @@ This project aims to predict customer default risk and identify the key drivers 
 ![Default Rate of products_number](images/products_number_def.png)
 #### Active Member
 ![Default Rate of active member](images/active_member_def.png)
-#### Finding from Default Rate Analysis
+#### Finding from Churn Rate Analysis
 * From credit score range, the highest churn rate is credit score range between 300-400 which reach churn rate 100% but we has seen that a sample point of this group is only 0.19% or 19 persons. Meanwhile, others range is contain a similar churn rate at around 20%.
 * Churn rate graph by age range range show us a bell curve histogram. The highest churn rate is age range between 50-60 which reach 56% churn rate.
 * From churn rate graph by tenure, look like not much different between each tenure age. The hishest churn rate is 0 yaer at 23.0% and lowest is 7 year at 17.2%.
