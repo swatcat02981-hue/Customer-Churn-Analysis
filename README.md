@@ -314,14 +314,10 @@ Cluster2 (High-Balance Long-Term Single-Product) and Cluster4 (High-Balance Shor
 
 ### Risk&Prediction
 ![Risk level of member&Prediction](images/powerbi/Risk&Prediction.png)
+The high-risk members are 37.7% meanwhile churn rate of this group equals to 38.41%(average is 20.37%). The percent number of medium-risk is 36.6% meanwhile churn rate equals to 12.42%.  The low-risk members are 25.7% and churn rate only 5.2%. 
 
 
-
-
-
-
-
-
+## Business Insights
 
 
 
