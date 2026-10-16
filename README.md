@@ -321,15 +321,12 @@ The high-risk members are 37.7% meanwhile churn rate of this group equals to 38.
 ## Key Business Insights
 
 **1. Customer Demographics and Account Activity**
-
 Customers aged 40–70 with account balances of 200K or above, particularly inactive members with either one or three or more products, should be monitored closely for churn risk. Their account balances may indicate substantial customer value, making retention efforts potentially important for the business.
 
 **2. High-Balance Single-Product Customer Segments**
-
 Cluster 2 (High-Balance Long-Term Single-Product) and Cluster 4 (High-Balance Short-Term Single-Product) are important segments to evaluate for targeted retention strategies. Despite maintaining high account balances, these customers use only one product, presenting an opportunity to strengthen engagement and explore relevant cross-selling opportunities.
 
 **3. Proactive Retention for High-Risk Customers**
-
 Customers identified as high-risk should be prioritized for proactive retention initiatives. Personalized communication, engagement monitoring, and tailored offers may help address potential disengagement and reduce customer churn. The effectiveness of these initiatives should be measured against actual retention outcomes.
 
 
