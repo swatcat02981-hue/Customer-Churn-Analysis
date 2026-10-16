@@ -33,7 +33,7 @@ This project aims to predict customer default risk and identify the key drivers 
 * Two lowest tenure age are 0 and 10 yaers(each of them is 4-5% of all) and each of the remaining tenure age is around 10%.
 * After plot a net worth balance histogram, seperating between two group. First group is a zero networth account estimated 36% and second group is a account that has more than zero networth balance look like a bell curve which has highest point around 120k.
 * Estimated salary histogram indicates that at all range of salary contain a similar number of account inside it.
-### Default Rate Analysis
+### Churn Rate Analysis
 #### Credit Score
 ![Default Rate of credit score](images/credit_score_def.png)
 #### Age
