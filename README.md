@@ -2,7 +2,7 @@
 ## Project Workflow
 ![ข้อความอธิบายรูปภาพ](images/Project_workflow.png)
 ## Project Overview
-This project aims to predict customer default risk and identify the key drivers behind loan defaults.
+This project aims to predict a probability of customer churn, identify relevant factors and classify customers into clusters.
 ## Dataset 
 * credit_score (num)(independent variable)
 * country (nominal catagorical)(independent variable)
